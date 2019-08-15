@@ -72,7 +72,7 @@
         <others>true</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
-        <report_drilldown/>
+        <report_drilldown display_value="Due Date">a56d0dc1db13330053137b603996191b</report_drilldown>
         <report_source display_value="Active NeedIt Requests (NeedIt)">85383a864fa21300874e8020a310c777</report_source>
         <roles/>
         <row/>
@@ -102,21 +102,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-09 05:17:43</sys_created_on>
         <sys_id>47b6c89e4f261300874e8020a310c759</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Monthly Active Requests by Requested for</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_report_drill_47b6c89e4f261300874e8020a310c759</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-09 05:17:43</sys_updated_on>
+        <sys_updated_on>2019-08-14 12:23:27</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <title>Monthly Active Requests by Requested for</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>u_when_needed</trend_field>
-        <type>line_bar</type>
+        <trend_field>activity_due</trend_field>
+        <type>pie</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
